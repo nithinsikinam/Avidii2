@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Define the background color or image -->
+    <item>
+        <color android:color="@color/primaryColor"/>
+    </item>
+
+    <!-- Center the logo on the screen -->
+    <item
+        android:drawable="@drawable/avidiilogo"
+        android:gravity="center"/>
+
+</layer-list>

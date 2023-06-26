@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.Avidii2" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+    <style name="Theme.Avidii2" parent="Base.Theme.Avidii2" />
+    <style name="SplashTheme" parent="Base.Theme.Avidii2">
+        <item name="android:windowSplashScreenBackground">@color/primaryColor</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@color/primaryColor</item>
+    </style>
+
+</resources>

@@ -1,0 +1,49 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.AskNowFragment"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/searchEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/search_bar_border"
+            android:hint="Search..."
+            android:textColorHint="#282828"
+            android:drawableStart="@drawable/baseline_search_24"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_margin="15dp"
+            android:layout_marginTop="70dp"
+            android:text="Select Your Subject"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <GridView
+            android:id="@+id/subjectGrid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="15dp"
+            android:horizontalSpacing="10dp"
+            android:numColumns="3"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10dp">
+
+            <!-- Assuming you have a custom layout for grid item, if not you will need to create one -->
+        </GridView>
+    </LinearLayout>
+
+
+</FrameLayout>
